@@ -6,6 +6,12 @@
 
     <title>Team 6 HTML Page</title>
     <!--Start of Xuan's Work-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="sophia.css">
     <link rel="stylesheet" href="xuan.css">
     <link rel="stylesheet" href="kevin.css">
@@ -16,7 +22,6 @@
             border: 0.5px solid black;
             color: yellowgreen;
             /* Mark Comment: why does this appear twice? */
-            border: 0.5px solid black;
         }
 
         td {
@@ -33,12 +38,28 @@
 </head>
 
 <body>
+    
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Team 6 Website</a>
+        </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      <li><a href="#KevinPage">Kevin's Page</a></li>  
+      <li><a href="#XuanPage">Xuan's Page</a></li>
+      <li><a href="#SophiaPage">Sofia's Page</a></li>
+      <li><a href="#BonPage">Bon's Page</a></li>
+    </ul>
+    </div> 
+</nav>
+
+<h1>Team 6 HTML Page</h1>
+<p>The contributing members to this page are Kevin, Bon, Sophia, and Xuan.</p>
 
     <!--Start of Kevin's Work-->
-    <h1>Team 6 HTML Page</h1>
-
-    <p>The contributing members to this page are Kevin, Bon, Sophia, and Xuan.</p>
-
+    <a id="KevinPage"> </a>
+        <a href="#KevinPage"></a>
     <div class="kevinDiv">
         <h3 id="kevinHeading">Kevin's Work</h3>
 
@@ -131,20 +152,16 @@
         <img src="HGC-Flag-Horizontal.jpg" alt="HGC Flag" table="HGC Flag" style="width:377px">
 
     </div>
-
     <!--End of Kevin's Work-->
 
     <!--Start of Xuan's Work-->
-
+    <a id="XuanPage"> </a>     
     <div class="xuandiv">
         <h3 id="xuanHeading">Xuan's Work</h3>
-
-
-
-        <p style="color: #bb8f88; text-decoration: underline">This is Xuan's page</p>
+        <a style="color: #bb8f88; text-decoration: underline" href="#XuanPage">This is Xuan's page</a>
 
         <!--Mark Comment: for clarity's sake, you shouldn't name your class paragraph if it's not being applied to a paragraph!-->
-        <div class="xuanparagraph">I don't know what to write so I guess I'll just write about my hobbies like my group
+        <div class="xuandiv2">I don't know what to write so I guess I'll just write about my hobbies like my group
             members
 
             <p><strong>Things I like to do</strong></p>
@@ -158,8 +175,6 @@
                 <li>Eating</li>
                 <li>Sleeping</li>
             </ul>
-
-
 
             <p>I'm <strong>obsessed</strong> with bubble tea</p>
             <p style="text-align: center; color: black">Some bubble tea brand and <em>favorite drink</em></p>
@@ -196,18 +211,19 @@
 
         <p style="color: #b38f75"><strong>Photos of my pets</strong></p>
 
-        <div class="xuanphoto">
-            <p style="color: black"> My two cats Taylor and Teagan </p>
-            <img src="Taylor.jpg" alt="Taylor" width="856" height="624">
-            <img src="Teagan.jpg" alt="Teagan" width="850" height="624">
-
-            <p style="color: black">And a new baby Shiba - Sushi</p>
-            <img src="Sushi.jpg" alt="Sushi" width="624" height="856">
+        <p style="color: black"> My two cats Taylor and Teagan </p>
+        <p style="color: black"> And a shiba puppy </p>
+        <div class="petphoto">          
+            <div><img src="Taylor.jpg" alt="Taylor" width="321" height="234"></div>
+            <div><img src="Sushi.jpg" alt="Sushi" width="234" height="321"></div>
+            <div><img src="Teagan.jpg" alt="Teagan" width="307.5" height="234"></div>           
         </div>
     </div>
     <!--End of Xuan's Work-->
 
     <!--Start of sophia's work-->
+    <a id="SophiaPage"> </a>
+        <a href="#SophiaPage"></a>
 
     <!--Mark's Comment: I'm not sure why you have a div tag below this that has the class Divider. it doesn't seem to do anything-->
     <!--Mark Commment: Did you address the above comment? I expect you to fix things that I say in previous assignment comments!-->
@@ -272,7 +288,10 @@
     </ol>
 
     <!--End of sophia's work-->
+
     <!--Start Bon -->
+    <a id="BonPage"> </a>
+        <a href="#BonPage"></a>
     <div id="bon_background">
         <hr>
 

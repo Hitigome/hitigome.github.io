@@ -4,9 +4,8 @@
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-.xuanparagraph p {
+.xuandiv2 p {
     color: #b38f75;
-
 }
 #xuanTable {
     text-align: center;
@@ -18,10 +17,14 @@
 .xuandiv {
     background-color: #f0e8e4;;
 }
-.xuanphoto {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  color: #b38f75;
+.petphoto {
+    display: flex;
+    justify-content: center;
+    background-color: #f0e8e4;
+  }
+.petphoto >div {
+    background-color: #d8bebd;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
