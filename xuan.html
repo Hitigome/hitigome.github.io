@@ -3,18 +3,22 @@
 <html>
 
 <head>
+
     <title>Team 6 HTML Page</title>
+    <!--Start of Xuan's Work-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!--below lines are needed for bootstrap, this is the updated version 4-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sophia.css">
     <link rel="stylesheet" href="css/xuan.css">
-
+    <link rel="stylesheet" href="css/kevin.css">
+    <link rel="stylesheet" href="css/bon.css">
     <style>
-       * {
+        * {
   box-sizing: border-box;
 }
-.xuandivcolumn {
+.xuandiv2 {
   float: left;
   width: 50%;
   padding: 10px;
@@ -24,19 +28,13 @@
   display: table;
   clear: both;
 }
-        table,
-        th {
-            border: 0.5px solid black;
-        }
-
-        td {
-            border: 0.5px solid black;
-        }
     </style>
-
+    <!--End of Xuan's Work-->
 </head>
 
 <body>
+    
+
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="index.html">Team 6 Home Page</a>
@@ -59,16 +57,15 @@
 <h1>Xuan Bui HTML Page</h1>
 <p>The contributing members to this page are Kevin, Bon, Sophia, and Xuan.</p>
 
-    <!--Start of Xuan's Work-->
-    <a id="XuanPage"> </a>     
-        <h1 id="xuanHeading">Xuan's Work</h1>
-        <a style="color: #bb8f88; text-decoration: underline" href="#XuanPage">This is Xuan's page</a>
-    
 
+    <!--Start of Xuan's Work-->
+    <a id="XuanPage"> </a>  
+    <h2 id="xuanHeading">Xuan's Work</h2>
+    <a style="color: #bb8f88; text-decoration: underline" href="#XuanPage">This is Xuan's page</a>   
+    <div class="xuandiv">
         <!--Mark Comment: for clarity's sake, you shouldn't name your class paragraph if it's not being applied to a paragraph!-->
-            <div class="xuandiv">
-                <div class="xuandivcolumn">
-            <h2>Things I like to do</h2>
+        <div class="xuandiv2" style="background-color: #ecdfd9">
+            <p><strong>Things I like to do</strong></p>
 
             <ul>
                 <li>Drawing</li>
@@ -78,13 +75,15 @@
                 <li>Photography</li>
                 <li>Eating</li>
                 <li>Sleeping</li>
+                <li>Taking care of my dog and cats</li>
+                <li>Gardening</li>
+                <li>Workout (sometimes)</li>
+                <li>Crying</li>
             </ul>
-            </div>
-
-            <div class="xuandivcolumn">
-            <p>I'm <strong>obsessed</strong> with bubble tea</p>
+        </div>
+            <div class="xuandiv2" style="background-color: #f5ece9">
+            <p style="text-align: center;">I'm <strong>obsessed</strong> with bubble tea</p>        
             <p style="text-align: center; color: black">Some bubble tea brand and <em>favorite drink</em></p>
-
             <table id="xuanTable" style="width:50%">
                 <tr>
                     <th><span style="color:#b38f75">Brand</span></th>
@@ -112,8 +111,8 @@
                 </tr>
 
             </table>
-
-        </div>
+            
+            </div>
         </div>
 
         <p style="color: #b38f75"><strong>Photos of my pets</strong></p>
@@ -125,6 +124,10 @@
             <div><img src="images/Sushi.jpg" alt="Sushi" width="234" height="321"></div>
             <div><img src="images/Teagan.jpg" alt="Teagan" width="307.5" height="234"></div>           
         </div>
+        <div class="container">
+            <a href="index.html" class="btn btn-light" role="button">Back To Home Page</a>
+        </div>
+        
     <!--End of Xuan's Work-->
 
     <!--below lines are needed for bootstrap-->
