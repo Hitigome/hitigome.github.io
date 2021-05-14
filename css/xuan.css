@@ -4,7 +4,10 @@
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-.xuandiv2 p {
+.xuandivlist p {
+    float: left;
+    width: 50%;
+    padding: 10px;
     color: #b38f75;
 }
 #xuanTable {
@@ -14,9 +17,13 @@
     margin-right: auto;
     color: black;
 }
-.xuandiv {
-    background-color: #f0e8e4;;
+.xuandiv: after {  
+    content: "";
+  display: table;
+  clear: both;
+    background-color: #f0e8e4;
 }
+
 .petphoto {
     display: flex;
     justify-content: center;
@@ -28,3 +35,4 @@
   padding: 20px;
   font-size: 30px;
 }
+
