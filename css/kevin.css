@@ -2,7 +2,8 @@
     background-color: #18a3b5;
     font-family: "Lucida Console", Lucida, monospace;
     text-transform: Normal;
-    color:#ffb646
+    color:#ffb646;
+    text-align: center;
     
 }
 
@@ -15,11 +16,20 @@
     color: #63064d
 }
 
+.kevinList {
+    color: #63064d;
+    text-align: center;
+}
+
 .kevinParagraph {
+    text-align: center;
     color: #63064d
+    
 }
 
 #kevinTable {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: black;
 }
