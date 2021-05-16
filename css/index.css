@@ -7,3 +7,4 @@
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
+/* I think to save space above, you could just do margin: auto; and border-radius: 5% */ 
