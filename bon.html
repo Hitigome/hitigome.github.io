@@ -66,7 +66,7 @@
 
         <!--Mark Comment: you have a closing span but no opening span tag.-->
         <!--Mark's Comment 5/16: Now it looks like you have an extra > sign.-->
-        <h3 id="bon_header">Bon's Work></h3>
+        <h3 id="bon_header">Bon's Work</h3>
 
         <hr>
 
@@ -97,14 +97,12 @@
         <h2>About my Car</h2>
 
         <p class="bon_text">
-            <!--Mark's Comment: the br is one of those tags that doesn't need an end tag so delete the /br tags... but also, you might want to use div tags instead of br tags...-->
-            <br>I recently got a new car. Literally bought it Monday morning and am picking it up this Saturday
-            <!--Mark Comment: you still have a closing br tag here.-->
-            <br>Its the Scion FRS
+            <!--Mark's Comment: the br is one of those tags that doesn't need an end tag so delete the /br tags... but also, you might want to use div tags instead of br tags... *Fixed*-->
+            <br>I recently got a new car. It's the Scion FRS.
+            <!--Mark Comment: you still have a closing br tag here. *fixed* -->
             <br>Its a pretty nice car. It's black, low milage, but the best part is that it is my dream car.
             <br>I'm pretty proud of myself because not only is it my dream car, but I'm also paying for it myself.
-            <br>The picture below is how the front looks. Not the greatest picture, but there will be better picture
-            after I pick it up this Saturday
+            <br>The picture below is how the front looks. Not the greatest picture, but there will be better eventually.
         </p>
 
         <img src="images/Frs.jpg" alt="Scion FRS" width="210" height="300">
@@ -112,39 +110,56 @@
         <!--Mark's Comment: try to put all text within a p or div tag.-->
         <!--Mark Comment: see above-->
         <!--Mark's Comment 5/16: ditto -->
-        <br>I have plans on modifying it. Here are a list of planned modification and the brand. There will definitely
-        be a lot more in the future, but for now this is all I will do.</br><!--Mark's Comment 5/16: still an unnecessary closing /br here.-->
-
         <div>
-            <table style="width:15%">
-                <tr>
-                    <!--Mark Comment: use the debug/problems panel in VSCode and resolve any errors before submitting the assignment! extra closing span tags here.-->
-                    <!--Mark's Comment 5/16: They're still here.-->
-                    <th class="table_header">Brand</span></th>
-                    <th class="table_header">Part Name</span></th>
-                </tr>
-                <tr>
-                    <td class="bon_text">Sparco</td>
-                    <td class="bon_text">Seats</td>
-                </tr>
-                <tr>
-                    <td class="bon_text">BC Racing</td>
-                    <td class="bon_text">Coilovers</td>
-                </tr>
-                <tr>
-                    <td class="bon_text">Tomei</td>
-                    <td class="bon_text">Unequal Length Headers</td>
-                </tr>
-                <tr>
-                    <td class="bon_text">AeroFlow</td>
-                    <td class="bon_text">Front Splitter</td>
-                </tr>
-            </table>
+          <br>I have plans on modifying it. Here are a list of planned modification and the brand. There will definitely
+          be a lot more in the future, but for now this is all I will do.<!--Mark's Comment 5/16: still an unnecessary closing /br here. *Fixed*-->
         </div>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Part List
+        </button>
+      </h5>
+    </div>
+  </div>
+</div>
+<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div class="card-body">
+      <div>
+          <table style="width:30%">
+              <tr>
+                  <!--Mark Comment: use the debug/problems panel in VSCode and resolve any errors before submitting the assignment! extra closing span tags here. *Fixed*-->
+                  <!--Mark's Comment 5/16: They're still here. *Fixed* -->
+                  <!--Bon 5/19: Changes did not save I swear-->
+                  <th class="table_header">Brand</th>
+                  <th class="table_header">Part Name</th>
+              </tr>
+              <tr>
+                  <td class="bon_text">Sparco</td>
+                  <td class="bon_text">Seats</td>
+              </tr>
+              <tr>
+                  <td class="bon_text">BC Racing</td>
+                  <td class="bon_text">Coilovers</td>
+              </tr>
+              <tr>
+                  <td class="bon_text">Tomei</td>
+                  <td class="bon_text">Unequal Length Headers</td>
+              </tr>
+              <tr>
+                  <td class="bon_text">AeroFlow</td>
+                  <td class="bon_text">Front Splitter</td>
+              </tr>
+          </table>
+      </div>
+    </div>
+  </div>
+</div>
         <hr>
         <br>
         <hr>
-    </div>
     <!-- End Bon -->
     <!--below lines are needed for bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
